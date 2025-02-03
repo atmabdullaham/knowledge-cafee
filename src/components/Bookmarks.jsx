@@ -2,7 +2,7 @@ import Bookmark from "./Bookmark";
 
 const Bookmarks = () => {
   return (
-    <div>
+    <div className="md:w-1/3">
       Book Marks
       <Bookmark></Bookmark>
     </div>

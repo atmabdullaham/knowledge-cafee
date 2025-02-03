@@ -1,0 +1,82 @@
+ [
+    {
+      "article_id": 1,
+      "article_title": "The Future of Artificial Intelligence",
+      "article_image": "https://www.simplilearn.com/ice9/free_resources_article_thumb/Future_Of_Artificial_Intelligence.jpg",
+      "author_name": "John Doe",
+      "author_image": "https://randomuser.me/api/portraits/men/1.jpg",
+      "posted_date": "2025-02-01",
+      "reading_time": "6",
+      "hashtag": ["#AI", "#Technology", "#Future"]
+    },
+    {
+      "article_id": 2,
+      "article_title": "10 Tips for Healthy Living",
+      "article_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyFIj3UNl0Wbftj_3aqEVZfmcW5wawEWq9eg&s",
+      "author_name": "Jane Smith",
+      "author_image": "https://randomuser.me/api/portraits/women/2.jpg",
+      "posted_date": "2025-01-28",
+      "reading_time": "5",
+      "hashtag": ["#Health", "#Wellness", "#Lifestyle"]
+    },
+    {
+      "article_id": 3,
+      "article_title": "The Rise of Remote Work",
+      "article_image": "https://media.licdn.com/dms/image/v2/D4D12AQGvbwGuR3pBPQ/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1687415560894?e=2147483647&v=beta&t=TEoEAcXra_LKVgWXdUakVyw-xmtQZauGzi9m0DagnJc",
+      "author_name": "Michael Lee",
+      "author_image": "https://randomuser.me/api/portraits/men/3.jpg",
+      "posted_date": "2025-01-20",
+      "reading_time": "7",
+      "hashtag": ["#RemoteWork", "#Productivity", "#FutureOfWork"]
+    },
+    {
+      "article_id": 4,
+      "article_title": "Exploring the Wonders of Space",
+      "article_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrcgPNGO99mau8WX7hkoOmeEAT_BE9H28FZw&s",
+      "author_name": "Emily Johnson",
+      "author_image": "https://randomuser.me/api/portraits/women/4.jpg",
+      "posted_date": "2025-01-15",
+      "reading_time": "9",
+      "hashtag": ["#Space", "#Astronomy", "#Science"]
+    },
+    {
+      "article_id": 5,
+      "article_title": "The Art of Minimalism",
+      "article_image": "https://insights.masterworks.com/wp-content/uploads/2022/11/IMG_5069-1-1024x586.jpg",
+      "author_name": "David Brown",
+      "author_image": "https://randomuser.me/api/portraits/men/5.jpg",
+      "posted_date": "2025-01-10",
+      "reading_time": "4",
+      "hashtag": ["#Minimalism", "#Lifestyle", "#Declutter"]
+    },
+    {
+      "article_id": 6,
+      "article_title": "How to Build a Successful Startup",
+      "article_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHaeNA1BSwcEAm2dj22eVUZyusm6eB9xiRLg&s",
+      "author_name": "Sophia Wilson",
+      "author_image": "https://randomuser.me/api/portraits/women/6.jpg",
+      "posted_date": "2025-01-05",
+      "reading_time": "8",
+      "hashtag": ["#Startup", "#Entrepreneurship", "#Business"]
+    },
+    {
+      "article_id": 7,
+      "article_title": "Best Travel Destinations for 2025",
+      "article_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZVxOlHS7DvlUj1aKyW9G7MDiM-Pju7qQwmw&s",
+      "author_name": "Oliver Martinez",
+      "author_image": "https://randomuser.me/api/portraits/men/7.jpg",
+      "posted_date": "2024-12-30",
+      "reading_time": "6",
+      "hashtag": ["#Travel", "#Adventure", "#Wanderlust"]
+    },
+    {
+      "article_id": 8,
+      "article_title": "The Evolution of Social Media",
+      "article_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOe6POKmVMcFHNsvf8xzSFKnY_mYxRlHM2XQ&s",
+      "author_name": "Emma Clark",
+      "author_image": "https://randomuser.me/api/portraits/women/8.jpg",
+      "posted_date": "2024-12-20",
+      "reading_time": "7",
+      "hashtag": ["#SocialMedia", "#DigitalMarketing", "#Influencers"]
+    }
+  ]

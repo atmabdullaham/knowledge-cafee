@@ -1,10 +1,12 @@
 import Article from "./Article";
 
-const Articles = () => {
+const Articles = ({ articles }) => {
   return (
-    <div>
-      Articles
-      <Article></Article>
+    <div className="md:w-2/3 flex flex-col gap-6">
+      Articles: {articles.length}
+      {articles.map((article) => (
+        <Article key={article.article_id} article={article}></Article>
+      ))}
     </div>
   );
 };
