@@ -15,7 +15,7 @@ const App = () => {
     <div className="container mx-auto px-4">
       {/* Header */}
       <Header></Header>
-      <section className="flex flex-col md:flex-row gap-4">
+      <section className="flex flex-col md:flex-row gap-4 mt-3">
         {/* Articles Section */}
         <Articles articles={articles}></Articles>
         {/* Bookmarks Section */}
