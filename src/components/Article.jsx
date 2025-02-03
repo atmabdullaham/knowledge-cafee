@@ -1,5 +1,10 @@
-const Article = ({ article }) => {
-  console.log(article);
+const Article = ({
+  article,
+  handleBookmark,
+  calculateReadingTime,
+  handleRemove,
+}) => {
+  // console.log(article);
   return (
     <div>
       <div className="card bg-base-100 border-1 border-gray-300">
@@ -29,7 +34,10 @@ const Article = ({ article }) => {
               <h4 className="text-base font-semibold">
                 {article.reading_time} Minute
               </h4>
-              <i className="fa-regular fa-bookmark"></i>
+              <i
+                onClick={() => handleBookmark(article)}
+                className="fa-regular fa-bookmark cursor-pointer"
+              ></i>
             </div>
           </div>
           <h2 className="card-title mt-2 text-xl font-bold">
@@ -41,7 +49,13 @@ const Article = ({ article }) => {
             ))}
           </div>
           <div className="card-actions">
-            <button className="btn bg-blue-50 border border-blue-100 hover:border-blue-200 mt-2 text-base font-semibold">
+            <button
+              onClick={() => {
+                calculateReadingTime(article.reading_time),
+                  handleRemove(article.article_id);
+              }}
+              className="btn bg-blue-50 border border-blue-100 hover:border-blue-200 mt-2 text-base font-semibold"
+            >
               Mark as Read
             </button>
           </div>
